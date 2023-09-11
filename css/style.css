@@ -1,0 +1,56 @@
+/* tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* selector universal */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "popins";
+    font-weight: 900;
+    color: brown;
+}
+
+/* selector etiqueta */
+h2{
+    background-color: bisque;
+}
+#site_text{
+    background-color: blanchedalmond;
+}
+/* selector clases */
+.subtitles{
+    font-family: 'poppins';
+}
+/* selector por atributo */
+[disabled]{
+    background-color: hsl(271, 76%, 53%);
+}
+
+/* selector id button enviar */
+#btn_send{
+    margin: 20px;
+    padding: 20px;
+}
+/* selector por pseudoclase */
+#btn_send:hover{
+    background-color: azure;
+    font-family: poppins;
+    color: blueviolet;
+    font-size: 10px;
+}
+#papa{
+    margin-left: 20px;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+}
+.hermanos{
+    background-color: black;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px;
+}
+#papa > #hermano 
